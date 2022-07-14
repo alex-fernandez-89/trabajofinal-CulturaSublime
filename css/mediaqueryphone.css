@@ -278,7 +278,7 @@
         z-index: 999;
         border-radius: 50%;
         bottom: 5%;
-        right: 6vh;
+        right: 8vh;
         padding: 15px;
         transition: ease 0.3s;
         animation: none
@@ -294,10 +294,28 @@
         transition: ease 1s;
     }
 
-
-
-
-
-
-
+}
+@media (max-width= 319){
+    .container-boton{
+        background-color: #00ff00;
+        
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 9%;
+        right: 10vh;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: none
+    }
+    
+    .container-boton:hover{
+        transform: none;
+        transition: none;
+    }
+    
+    .boton{
+        width: 8vw;
+        transition: ease 1s;
+    }
 }

@@ -277,8 +277,8 @@
         position: fixed;
         z-index: 999;
         border-radius: 50%;
-        bottom: 2%;
-        right: 4vh;
+        bottom: 3%;
+        right: 8vh;
         padding: 15px;
         transition: ease 0.3s;
         animation: none
